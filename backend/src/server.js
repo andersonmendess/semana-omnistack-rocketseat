@@ -11,8 +11,8 @@ mongoose.connect("mongodb://localhost:27017/tindev", {
   useFindAndModify: false
 })
 
+server.use(cors());
 server.use(express.json());
 server.use(routes);
-server.use(cors());
 
 server.listen(3001);
