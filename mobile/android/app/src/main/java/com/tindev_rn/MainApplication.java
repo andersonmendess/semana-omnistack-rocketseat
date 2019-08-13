@@ -1,4 +1,4 @@
-package com.tindev_mobile;
+package com.tindev_rn;
 
 import android.app.Application;
 import android.util.Log;

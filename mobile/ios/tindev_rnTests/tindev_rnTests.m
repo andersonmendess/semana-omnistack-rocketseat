@@ -14,11 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface tindev_mobileTests : XCTestCase
+@interface tindev_rnTests : XCTestCase
 
 @end
 
-@implementation tindev_mobileTests
+@implementation tindev_rnTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.tindev_mobile">
+  package="com.tindev_rn">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
